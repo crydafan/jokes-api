@@ -1,9 +1,7 @@
-{
-  "jokes": [
-    {
-      "id": 1,
-      "setup": "Why did the scarecrow win an award?",
-      "punchline": "Because he was outstanding in his field!"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he was outstanding in his field!"
+  }
+]

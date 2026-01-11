@@ -1,4 +1,4 @@
-import { jokes } from "./data.json";
+import { getRandomJoke } from "./jokes";
 
 const server = Bun.serve({
   routes: {
@@ -8,12 +8,11 @@ const server = Bun.serve({
     }),
 
     "/api/joke": () => {
-      const joke = jokes[Math.floor(Math.random() * jokes.length)];
       return Response.json({
         success: true,
         message: "Here's a joke for you!",
         data: {
-          ...joke,
+          ...getRandomJoke(),
         },
       });
     },
