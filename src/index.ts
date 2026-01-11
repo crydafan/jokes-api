@@ -5,9 +5,12 @@ export const getJokes = () => {
   return data as Joke[];
 };
 
-export const getRandomJoke = () => {
+export const getRandomJoke = (category: string | null) => {
   const jokes = getJokes();
-  return jokes[Math.floor(Math.random() * jokes.length)];
+  const filteredJokes = category
+    ? jokes.filter((joke) => joke.category === category)
+    : jokes;
+  return filteredJokes[Math.floor(Math.random() * filteredJokes.length)];
 };
 
 const server = Bun.serve({
@@ -17,12 +20,14 @@ const server = Bun.serve({
       message: "OK",
     }),
 
-    "/api/joke": () => {
+    "/api/joke": (req) => {
+      const url = new URL(req.url);
+      const category = url.searchParams.get("category");
       return Response.json({
         success: true,
         message: "Here's a joke for you!",
         data: {
-          ...getRandomJoke(),
+          ...getRandomJoke(category),
         },
       });
     },
