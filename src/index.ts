@@ -17,7 +17,10 @@ const server = Bun.serve({
       });
     },
 
-    "/*": Response.json({ success: false, err: "Not found" }, { status: 404 }),
+    "/*": Response.json(
+      { success: false, message: "Not found" },
+      { status: 404 }
+    ),
   },
 });
 
