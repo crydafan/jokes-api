@@ -1,17 +1,4 @@
-import data from "../data.json";
-import type { Joke } from "../lib/types";
-
-export const getJokes = () => {
-  return data as Joke[];
-};
-
-export const getRandomJoke = (category: string | null) => {
-  const jokes = getJokes();
-  const filteredJokes = category
-    ? jokes.filter((joke) => joke.category === category)
-    : jokes;
-  return filteredJokes[Math.floor(Math.random() * filteredJokes.length)];
-};
+import { jokeService } from "./services/joke";
 
 const server = Bun.serve({
   routes: {
@@ -27,7 +14,7 @@ const server = Bun.serve({
         success: true,
         message: "Here's a joke for you!",
         data: {
-          ...getRandomJoke(category),
+          ...jokeService.getRandomJoke(category),
         },
       });
     },
