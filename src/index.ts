@@ -1,14 +1,29 @@
+import { rateLimit } from "./middleware/rate-limiter";
 import { jokeService } from "./services/joke";
 
 const server = Bun.serve({
-  routes: {
-    "/api/status": Response.json({
-      success: true,
-      message: "OK",
-    }),
+  async fetch(req, server) {
+    const ip = server.requestIP(req)?.address ?? "unknown";
+    const { limited } = await rateLimit(ip);
 
-    "/api/joke": (req) => {
-      const url = new URL(req.url);
+    if (limited) {
+      return Response.json(
+        {
+          success: false,
+          message: "Rate limit exceeded. Please try again later.",
+        },
+        { status: 429 }
+      );
+    }
+
+    const url = new URL(req.url);
+    if (url.pathname === "/api/status") {
+      return Response.json({
+        success: true,
+        message: "OK",
+      });
+    }
+    if (url.pathname === "/api/joke") {
       const category = url.searchParams.get("category");
       return Response.json({
         success: true,
@@ -17,12 +32,11 @@ const server = Bun.serve({
           ...jokeService.getRandomJoke(category),
         },
       });
-    },
-
-    "/*": Response.json(
+    }
+    return Response.json(
       { success: false, message: "Not found" },
       { status: 404 }
-    ),
+    );
   },
 });
 
