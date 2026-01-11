@@ -1,4 +1,14 @@
-import { getRandomJoke } from "./jokes";
+import data from "../data.json";
+import type { Joke } from "../lib/types";
+
+export const getJokes = () => {
+  return data as Joke[];
+};
+
+export const getRandomJoke = () => {
+  const jokes = getJokes();
+  return jokes[Math.floor(Math.random() * jokes.length)];
+};
 
 const server = Bun.serve({
   routes: {
