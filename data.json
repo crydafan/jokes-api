@@ -1,7 +1,931 @@
 [
   {
     "id": 1,
+    "category": "general",
     "setup": "Why did the scarecrow win an award?",
     "punchline": "Because he was outstanding in his field!"
+  },
+  {
+    "id": 2,
+    "category": "science",
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 3,
+    "category": "school",
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 4,
+    "category": "tech",
+    "setup": "Why did the computer go to the doctor?",
+    "punchline": "Because it caught a virus."
+  },
+  {
+    "id": 5,
+    "category": "general",
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it was two-tired."
+  },
+
+  {
+    "id": 6,
+    "category": "programming",
+    "setup": "Why don't programmers like nature?",
+    "punchline": "Too many bugs."
+  },
+  {
+    "id": 7,
+    "category": "programming",
+    "setup": "Why did the developer go broke?",
+    "punchline": "Because he used up all his cache."
+  },
+  {
+    "id": 8,
+    "category": "programming",
+    "setup": "Why do Java developers wear glasses?",
+    "punchline": "Because they don't C#."
+  },
+  {
+    "id": 9,
+    "category": "programming",
+    "setup": "Why was the server tired?",
+    "punchline": "Too many requests."
+  },
+  {
+    "id": 10,
+    "category": "programming",
+    "setup": "Why did the function return early?",
+    "punchline": "It had a timeout."
+  },
+
+  {
+    "id": 11,
+    "category": "food",
+    "setup": "Why don't eggs tell jokes?",
+    "punchline": "They'd crack each other up."
+  },
+  {
+    "id": 12,
+    "category": "food",
+    "setup": "Why did the tomato turn red?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 13,
+    "category": "food",
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 14,
+    "category": "food",
+    "setup": "Why did the cookie go to the hospital?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 15,
+    "category": "food",
+    "setup": "Why was the mushroom invited to the party?",
+    "punchline": "Because he was a fun-gi."
+  },
+
+  {
+    "id": 16,
+    "category": "animals",
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "They don't have the guts."
+  },
+  {
+    "id": 17,
+    "category": "animals",
+    "setup": "Why did the cat sit on the keyboard?",
+    "punchline": "It wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 18,
+    "category": "animals",
+    "setup": "Why don't elephants use computers?",
+    "punchline": "They're afraid of the mouse."
+  },
+  {
+    "id": 19,
+    "category": "animals",
+    "setup": "Why did the cow win an award?",
+    "punchline": "Because she was outstanding in her field."
+  },
+  {
+    "id": 20,
+    "category": "animals",
+    "setup": "Why do dogs run in circles?",
+    "punchline": "Because it's hard to run in squares."
+  },
+
+  {
+    "id": 21,
+    "category": "work",
+    "setup": "Why did the calendar get fired?",
+    "punchline": "It took too many days off."
+  },
+  {
+    "id": 22,
+    "category": "work",
+    "setup": "Why did the employee bring a ladder?",
+    "punchline": "To climb the corporate ladder."
+  },
+  {
+    "id": 23,
+    "category": "work",
+    "setup": "Why did the boss bring string?",
+    "punchline": "To tie up loose ends."
+  },
+  {
+    "id": 24,
+    "category": "work",
+    "setup": "Why did the meeting feel pointless?",
+    "punchline": "It could've been an email."
+  },
+  {
+    "id": 25,
+    "category": "work",
+    "setup": "Why did the office printer break up with the computer?",
+    "punchline": "Too many issues."
+  },
+
+  {
+    "id": 26,
+    "category": "school",
+    "setup": "Why did the student eat his homework?",
+    "punchline": "The teacher said it was a piece of cake."
+  },
+  {
+    "id": 27,
+    "category": "school",
+    "setup": "Why did the pencil go to school?",
+    "punchline": "To get sharper."
+  },
+  {
+    "id": 28,
+    "category": "school",
+    "setup": "Why was the geometry book happy?",
+    "punchline": "It finally found its angle."
+  },
+  {
+    "id": 29,
+    "category": "school",
+    "setup": "Why did the ruler feel important?",
+    "punchline": "It measured up."
+  },
+  {
+    "id": 30,
+    "category": "school",
+    "setup": "Why did the teacher wear sunglasses?",
+    "punchline": "Because the students were so bright."
+  },
+
+  {
+    "id": 31,
+    "category": "tech",
+    "setup": "Why was the computer cold?",
+    "punchline": "It forgot to close its Windows."
+  },
+  {
+    "id": 32,
+    "category": "tech",
+    "setup": "Why did the phone need glasses?",
+    "punchline": "It lost its contacts."
+  },
+  {
+    "id": 33,
+    "category": "tech",
+    "setup": "Why did the Wi-Fi quit?",
+    "punchline": "Too many connections."
+  },
+  {
+    "id": 34,
+    "category": "tech",
+    "setup": "Why did the battery break up?",
+    "punchline": "It lost its charge."
+  },
+  {
+    "id": 35,
+    "category": "tech",
+    "setup": "Why did the robot go to school?",
+    "punchline": "To improve its processing."
+  },
+
+  {
+    "id": 36,
+    "category": "science",
+    "setup": "Why did the astronaut need space?",
+    "punchline": "Because Earth was too crowded."
+  },
+  {
+    "id": 37,
+    "category": "science",
+    "setup": "Why did the moon skip dinner?",
+    "punchline": "It was already full."
+  },
+  {
+    "id": 38,
+    "category": "science",
+    "setup": "Why did gravity break up?",
+    "punchline": "Too much attraction."
+  },
+  {
+    "id": 39,
+    "category": "science",
+    "setup": "Why was the chemistry book confident?",
+    "punchline": "It had all the solutions."
+  },
+  {
+    "id": 40,
+    "category": "science",
+    "setup": "Why did the photon pack light?",
+    "punchline": "Because it was traveling light."
+  },
+
+  {
+    "id": 41,
+    "category": "travel",
+    "setup": "Why did the plane feel relaxed?",
+    "punchline": "It was cruising."
+  },
+  {
+    "id": 42,
+    "category": "travel",
+    "setup": "Why did the suitcase feel confident?",
+    "punchline": "It had baggage handled."
+  },
+  {
+    "id": 43,
+    "category": "travel",
+    "setup": "Why did the map get promoted?",
+    "punchline": "It always knew the way."
+  },
+  {
+    "id": 44,
+    "category": "travel",
+    "setup": "Why did the passport smile?",
+    "punchline": "It was well-stamped."
+  },
+  {
+    "id": 45,
+    "category": "travel",
+    "setup": "Why did the compass feel lost?",
+    "punchline": "It couldn't find direction."
+  },
+
+  {
+    "id": 46,
+    "category": "gaming",
+    "setup": "Why did the gamer bring a ladder?",
+    "punchline": "To level up."
+  },
+  {
+    "id": 47,
+    "category": "gaming",
+    "setup": "Why did the controller get mad?",
+    "punchline": "It lost control."
+  },
+  {
+    "id": 48,
+    "category": "gaming",
+    "setup": "Why did the NPC quit?",
+    "punchline": "Too many repetitive tasks."
+  },
+  {
+    "id": 49,
+    "category": "gaming",
+    "setup": "Why did the boss fight end early?",
+    "punchline": "Bad balancing."
+  },
+  {
+    "id": 50,
+    "category": "gaming",
+    "setup": "Why did the console feel old?",
+    "punchline": "Too many updates."
+  },
+
+  {
+    "id": 51,
+    "category": "general",
+    "setup": "Why did the broom get promoted?",
+    "punchline": "It swept in."
+  },
+  {
+    "id": 52,
+    "category": "general",
+    "setup": "Why did the clock get tired?",
+    "punchline": "It worked around the clock."
+  },
+  {
+    "id": 53,
+    "category": "general",
+    "setup": "Why did the mirror feel honest?",
+    "punchline": "It never lies."
+  },
+  {
+    "id": 54,
+    "category": "general",
+    "setup": "Why did the door feel important?",
+    "punchline": "It opened opportunities."
+  },
+  {
+    "id": 55,
+    "category": "general",
+    "setup": "Why did the key feel confident?",
+    "punchline": "It fit perfectly."
+  },
+
+  {
+    "id": 56,
+    "category": "programming",
+    "setup": "Why did the database break up?",
+    "punchline": "Too many relationships."
+  },
+  {
+    "id": 57,
+    "category": "programming",
+    "setup": "Why did the API get lonely?",
+    "punchline": "No one was calling it."
+  },
+  {
+    "id": 58,
+    "category": "programming",
+    "setup": "Why did the bug feel safe?",
+    "punchline": "It was in production."
+  },
+  {
+    "id": 59,
+    "category": "programming",
+    "setup": "Why did the developer hate stairs?",
+    "punchline": "Too many steps."
+  },
+  {
+    "id": 60,
+    "category": "programming",
+    "setup": "Why did the code feel clean?",
+    "punchline": "It finally got refactored."
+  },
+
+  {
+    "id": 61,
+    "category": "food",
+    "setup": "Why did the sandwich get promoted?",
+    "punchline": "It was on a roll."
+  },
+  {
+    "id": 62,
+    "category": "food",
+    "setup": "Why did the fridge apply for a job?",
+    "punchline": "It wanted to chill."
+  },
+  {
+    "id": 63,
+    "category": "food",
+    "setup": "Why did the onion cry?",
+    "punchline": "Because it got chopped."
+  },
+  {
+    "id": 64,
+    "category": "food",
+    "setup": "Why did the bread break up?",
+    "punchline": "It needed space."
+  },
+  {
+    "id": 65,
+    "category": "food",
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "It wasn't peeling well."
+  },
+
+  {
+    "id": 66,
+    "category": "animals",
+    "setup": "Why did the horse sit down?",
+    "punchline": "It felt stable."
+  },
+  {
+    "id": 67,
+    "category": "animals",
+    "setup": "Why did the bird get promoted?",
+    "punchline": "It was outstanding in its field."
+  },
+  {
+    "id": 68,
+    "category": "animals",
+    "setup": "Why did the fish blush?",
+    "punchline": "It saw the ocean's bottom."
+  },
+  {
+    "id": 69,
+    "category": "animals",
+    "setup": "Why did the bee get married?",
+    "punchline": "It found its honey."
+  },
+  {
+    "id": 70,
+    "category": "animals",
+    "setup": "Why did the turtle cross the road?",
+    "punchline": "Slow and steady."
+  },
+
+  {
+    "id": 71,
+    "category": "work",
+    "setup": "Why did the employee bring a pencil?",
+    "punchline": "To draw conclusions."
+  },
+  {
+    "id": 72,
+    "category": "work",
+    "setup": "Why did the intern bring coffee?",
+    "punchline": "Job security."
+  },
+  {
+    "id": 73,
+    "category": "work",
+    "setup": "Why did the CEO carry a notebook?",
+    "punchline": "Big ideas."
+  },
+  {
+    "id": 74,
+    "category": "work",
+    "setup": "Why did the office feel cold?",
+    "punchline": "Too many drafts."
+  },
+  {
+    "id": 75,
+    "category": "work",
+    "setup": "Why did the worker stare at the screen?",
+    "punchline": "Waiting for motivation."
+  },
+
+  {
+    "id": 76,
+    "category": "school",
+    "setup": "Why did the book join the gym?",
+    "punchline": "To get stronger chapters."
+  },
+  {
+    "id": 77,
+    "category": "school",
+    "setup": "Why did the student bring a ladder?",
+    "punchline": "To reach higher grades."
+  },
+  {
+    "id": 78,
+    "category": "school",
+    "setup": "Why did the chalk break?",
+    "punchline": "Too much pressure."
+  },
+  {
+    "id": 79,
+    "category": "school",
+    "setup": "Why did the exam feel hard?",
+    "punchline": "Too many questions."
+  },
+  {
+    "id": 80,
+    "category": "school",
+    "setup": "Why did the library feel calm?",
+    "punchline": "Quiet environment."
+  },
+
+  {
+    "id": 81,
+    "category": "science",
+    "setup": "Why did the cell feel lonely?",
+    "punchline": "It split."
+  },
+  {
+    "id": 82,
+    "category": "science",
+    "setup": "Why did the experiment fail?",
+    "punchline": "Wrong formula."
+  },
+  {
+    "id": 83,
+    "category": "science",
+    "setup": "Why did the magnet feel attractive?",
+    "punchline": "It just was."
+  },
+  {
+    "id": 84,
+    "category": "science",
+    "setup": "Why did the lab smell?",
+    "punchline": "Too many reactions."
+  },
+  {
+    "id": 85,
+    "category": "science",
+    "setup": "Why did the theory get rejected?",
+    "punchline": "No proof."
+  },
+
+  {
+    "id": 86,
+    "category": "travel",
+    "setup": "Why did the road feel crossed?",
+    "punchline": "The chicken made it famous."
+  },
+  {
+    "id": 87,
+    "category": "travel",
+    "setup": "Why did the hotel feel busy?",
+    "punchline": "No vacancies."
+  },
+  {
+    "id": 88,
+    "category": "travel",
+    "setup": "Why did the taxi feel lost?",
+    "punchline": "Wrong turn."
+  },
+  {
+    "id": 89,
+    "category": "travel",
+    "setup": "Why did the tourist look confused?",
+    "punchline": "No signal."
+  },
+  {
+    "id": 90,
+    "category": "travel",
+    "setup": "Why did the airport feel stressed?",
+    "punchline": "Too many delays."
+  },
+
+  {
+    "id": 91,
+    "category": "gaming",
+    "setup": "Why did the player rage quit?",
+    "punchline": "Lag."
+  },
+  {
+    "id": 92,
+    "category": "gaming",
+    "setup": "Why did the healer get blamed?",
+    "punchline": "Always does."
+  },
+  {
+    "id": 93,
+    "category": "gaming",
+    "setup": "Why did the speedrunner smile?",
+    "punchline": "New record."
+  },
+  {
+    "id": 94,
+    "category": "gaming",
+    "setup": "Why did the patch arrive?",
+    "punchline": "Fixes."
+  },
+  {
+    "id": 95,
+    "category": "gaming",
+    "setup": "Why did the loot feel bad?",
+    "punchline": "RNG."
+  },
+
+  {
+    "id": 96,
+    "category": "general",
+    "setup": "Why did the wallet feel empty?",
+    "punchline": "Too many expenses."
+  },
+  {
+    "id": 97,
+    "category": "general",
+    "setup": "Why did the coin feel useful?",
+    "punchline": "It made cents."
+  },
+  {
+    "id": 98,
+    "category": "general",
+    "setup": "Why did the candle feel helpful?",
+    "punchline": "It lit the way."
+  },
+  {
+    "id": 99,
+    "category": "general",
+    "setup": "Why did the window get promoted?",
+    "punchline": "Great transparency."
+  },
+  {
+    "id": 100,
+    "category": "general",
+    "setup": "Why did the lock relax?",
+    "punchline": "It felt secure."
+  },
+
+  {
+    "id": 101,
+    "category": "programming",
+    "setup": "Why did the CI pipeline cry?",
+    "punchline": "Tests failed."
+  },
+  {
+    "id": 102,
+    "category": "programming",
+    "setup": "Why did the commit feel small?",
+    "punchline": "Minor changes."
+  },
+  {
+    "id": 103,
+    "category": "programming",
+    "setup": "Why did the repo feel crowded?",
+    "punchline": "Too many forks."
+  },
+  {
+    "id": 104,
+    "category": "programming",
+    "setup": "Why did the dev skip lunch?",
+    "punchline": "Flow state."
+  },
+  {
+    "id": 105,
+    "category": "programming",
+    "setup": "Why did the merge fail?",
+    "punchline": "Conflicts."
+  },
+
+  {
+    "id": 106,
+    "category": "food",
+    "setup": "Why did the chef quit?",
+    "punchline": "Too much pressure."
+  },
+  {
+    "id": 107,
+    "category": "food",
+    "setup": "Why did the soup feel warm?",
+    "punchline": "Comfort food."
+  },
+  {
+    "id": 108,
+    "category": "food",
+    "setup": "Why did the pizza feel loved?",
+    "punchline": "Extra cheese."
+  },
+  {
+    "id": 109,
+    "category": "food",
+    "setup": "Why did the fork feel important?",
+    "punchline": "Point made."
+  },
+  {
+    "id": 110,
+    "category": "food",
+    "setup": "Why did the plate feel empty?",
+    "punchline": "Dinner was good."
+  },
+
+  {
+    "id": 111,
+    "category": "animals",
+    "setup": "Why did the owl get promoted?",
+    "punchline": "Wise choice."
+  },
+  {
+    "id": 112,
+    "category": "animals",
+    "setup": "Why did the dog bring a stick?",
+    "punchline": "Negotiation."
+  },
+  {
+    "id": 113,
+    "category": "animals",
+    "setup": "Why did the rabbit relax?",
+    "punchline": "No rush."
+  },
+  {
+    "id": 114,
+    "category": "animals",
+    "setup": "Why did the snake get hired?",
+    "punchline": "Solid hiss-tory."
+  },
+  {
+    "id": 115,
+    "category": "animals",
+    "setup": "Why did the frog smile?",
+    "punchline": "Good leap."
+  },
+
+  {
+    "id": 116,
+    "category": "work",
+    "setup": "Why did the deadline move?",
+    "punchline": "Scope creep."
+  },
+  {
+    "id": 117,
+    "category": "work",
+    "setup": "Why did the spreadsheet cry?",
+    "punchline": "Too many formulas."
+  },
+  {
+    "id": 118,
+    "category": "work",
+    "setup": "Why did HR smile?",
+    "punchline": "Compliance."
+  },
+  {
+    "id": 119,
+    "category": "work",
+    "setup": "Why did the email feel ignored?",
+    "punchline": "No reply."
+  },
+  {
+    "id": 120,
+    "category": "work",
+    "setup": "Why did the coffee disappear?",
+    "punchline": "Monday."
+  },
+
+  {
+    "id": 121,
+    "category": "school",
+    "setup": "Why did the bell ring?",
+    "punchline": "Class dismissed."
+  },
+  {
+    "id": 122,
+    "category": "school",
+    "setup": "Why did the notebook feel full?",
+    "punchline": "Too many notes."
+  },
+  {
+    "id": 123,
+    "category": "school",
+    "setup": "Why did the student smile?",
+    "punchline": "Pop quiz canceled."
+  },
+  {
+    "id": 124,
+    "category": "school",
+    "setup": "Why did the backpack feel heavy?",
+    "punchline": "Knowledge."
+  },
+  {
+    "id": 125,
+    "category": "school",
+    "setup": "Why did the exam end?",
+    "punchline": "Time's up."
+  },
+
+  {
+    "id": 126,
+    "category": "science",
+    "setup": "Why did the virus feel famous?",
+    "punchline": "It went viral."
+  },
+  {
+    "id": 127,
+    "category": "science",
+    "setup": "Why did the formula feel right?",
+    "punchline": "Balanced."
+  },
+  {
+    "id": 128,
+    "category": "science",
+    "setup": "Why did the lab coat feel clean?",
+    "punchline": "Fresh start."
+  },
+  {
+    "id": 129,
+    "category": "science",
+    "setup": "Why did the scientist smile?",
+    "punchline": "Successful test."
+  },
+  {
+    "id": 130,
+    "category": "science",
+    "setup": "Why did the graph look good?",
+    "punchline": "Positive trend."
+  },
+
+  {
+    "id": 131,
+    "category": "travel",
+    "setup": "Why did the road trip start late?",
+    "punchline": "Snacks."
+  },
+  {
+    "id": 132,
+    "category": "travel",
+    "setup": "Why did the hotel pillow feel soft?",
+    "punchline": "Vacation mode."
+  },
+  {
+    "id": 133,
+    "category": "travel",
+    "setup": "Why did the beach feel calm?",
+    "punchline": "Low tide."
+  },
+  {
+    "id": 134,
+    "category": "travel",
+    "setup": "Why did the guide smile?",
+    "punchline": "Good tip."
+  },
+  {
+    "id": 135,
+    "category": "travel",
+    "setup": "Why did the photo turn out bad?",
+    "punchline": "Backlight."
+  },
+
+  {
+    "id": 136,
+    "category": "gaming",
+    "setup": "Why did the tank lead?",
+    "punchline": "Aggro."
+  },
+  {
+    "id": 137,
+    "category": "gaming",
+    "setup": "Why did the DPS complain?",
+    "punchline": "Nerf."
+  },
+  {
+    "id": 138,
+    "category": "gaming",
+    "setup": "Why did the game crash?",
+    "punchline": "Early access."
+  },
+  {
+    "id": 139,
+    "category": "gaming",
+    "setup": "Why did the lobby wait?",
+    "punchline": "Matchmaking."
+  },
+  {
+    "id": 140,
+    "category": "gaming",
+    "setup": "Why did the save file smile?",
+    "punchline": "Checkpoint reached."
+  },
+
+  {
+    "id": 141,
+    "category": "general",
+    "setup": "Why did the clock smile?",
+    "punchline": "Right on time."
+  },
+  {
+    "id": 142,
+    "category": "general",
+    "setup": "Why did the pen feel useful?",
+    "punchline": "Point made."
+  },
+  {
+    "id": 143,
+    "category": "general",
+    "setup": "Why did the chair relax?",
+    "punchline": "Good support."
+  },
+  {
+    "id": 144,
+    "category": "general",
+    "setup": "Why did the lamp shine?",
+    "punchline": "Bright idea."
+  },
+  {
+    "id": 145,
+    "category": "general",
+    "setup": "Why did the alarm stop?",
+    "punchline": "Weekend."
+  },
+
+  {
+    "id": 146,
+    "category": "programming",
+    "setup": "Why did Bun feel fast?",
+    "punchline": "Written to run."
+  },
+  {
+    "id": 147,
+    "category": "programming",
+    "setup": "Why did TypeScript smile?",
+    "punchline": "Type safety."
+  },
+  {
+    "id": 148,
+    "category": "programming",
+    "setup": "Why did the build succeed?",
+    "punchline": "Finally."
+  },
+  {
+    "id": 149,
+    "category": "programming",
+    "setup": "Why did the debugger feel useful?",
+    "punchline": "Found it."
+  },
+  {
+    "id": 150,
+    "category": "programming",
+    "setup": "Why did the code ship?",
+    "punchline": "It worked on my machine."
   }
 ]
