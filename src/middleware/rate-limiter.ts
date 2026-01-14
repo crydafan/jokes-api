@@ -3,7 +3,7 @@ const rateLimits = new Map<string, { count: number; resetTime: number }>();
 
 const config = {
   WINDOW_SIZE_IN_MS: 60 * 1000, // 1 minute
-  MAX_REQUESTS: 100, // Max. requests per window per user
+  MAX_REQUESTS: 250, // Max. requests per window per user
 } as const;
 
 export async function rateLimit(ip: string) {
